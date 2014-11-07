@@ -3416,6 +3416,8 @@ void show_philz_settings_menu()
 #endif
                 //ui_print(EXPAND(BUILD_DATE)"\n");
                 ui_print("Compiled %s at %s\n", __DATE__, __TIME__);
+                
+                ui_print("Compiled by katinatez @XDA" "\n");
                 break;
             }
         }
