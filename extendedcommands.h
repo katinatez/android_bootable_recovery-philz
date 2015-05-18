@@ -94,7 +94,7 @@ void get_rom_name(char *rom_name);
 void get_device_id(char *device_id);
 void reset_custom_job_settings(int custom_job);
 
-#define MAX_EXTRA_NANDROID_PARTITIONS    5
+#define MAX_EXTRA_NANDROID_PARTITIONS    11
 void reset_extra_partitions_state();
 int get_extra_partitions_state();
 struct extra_partitions_list {
