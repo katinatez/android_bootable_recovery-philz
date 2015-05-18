@@ -905,6 +905,7 @@ else ifeq ($(TARGET_DEVICE), falcon)
 else ifeq ($(TARGET_DEVICE), bacon)
     TARGET_COMMON_NAME := One Plus One
     TARGET_USERIMAGES_USE_F2FS := true
+    KERNEL_EXFAT_MODULE_NAME:= "exfat"
     TARGET_SCREEN_HEIGHT := 1920
     TARGET_SCREEN_WIDTH := 1080
     BRIGHTNESS_SYS_FILE := "/sys/class/leds/lcd-backlight/brightness"
